@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <ImageView
+        android:id="@+id/iv_user"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/money" />
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_user"
+        android:layout_alignStart="@+id/etUser"
+        android:layout_alignLeft="@+id/etUser"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="22dp"
+        android:text="UserName:"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/iv_user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#11000000"
+        android:inputType="textPersonName"
+        android:textColor="#fff"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etUser"
+        android:layout_alignStart="@+id/etPassword"
+        android:layout_alignLeft="@+id/etPassword"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="22dp"
+        android:text="Password:"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/etUser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#11000000"
+        android:inputType="textPassword"
+        android:textColor="#fff"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvRePassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPassword"
+        android:layout_alignStart="@+id/etUser"
+        android:layout_alignLeft="@+id/etUser"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="22dp"
+        android:text="Confirm Password:"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/etRePassword"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/etPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#11000000"
+        android:inputType="textPassword"
+        android:textColor="#fff"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etRePassword"
+        android:layout_alignStart="@+id/etUser"
+        android:layout_alignLeft="@+id/etUser"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_rectangle_pink"
+        android:text="Register"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etRePassword"
+        android:layout_marginTop="40dp"
+        android:layout_alignEnd="@+id/etUser"
+        android:layout_alignRight="@+id/etUser"
+        android:background="@drawable/button_rectangle_pink"
+        android:text="Login"
+        android:textColor="#fff" />
+
+</RelativeLayout>

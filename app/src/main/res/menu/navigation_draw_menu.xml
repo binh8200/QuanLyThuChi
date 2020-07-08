@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/left_nav_khoanthu"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="@string/menu_item_khoanthu" />
+        <item
+            android:id="@+id/left_nav_khoanchi"
+            android:icon="@drawable/ic_money_off_black_24dp"
+            android:title="@string/menu_item_khoanchi" />
+        <item
+            android:id="@+id/left_nav_thongke"
+            android:icon="@drawable/ic_assessment_black_24dp"
+            android:title="@string/menu_item_thongke" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/left_nav_gioithieu"
+                android:icon="@drawable/gioithieu"
+                android:title="@string/menu_item_gioithieu" />
+            <item
+                android:id="@+id/left_nav_thoat"
+                android:icon="@drawable/ic_subdirectory_arrow_left_black_24dp"
+                android:title="@string/menu_item_thoat" />
+        </menu>
+    </item>
+
+
+</menu>

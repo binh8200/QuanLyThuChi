@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
+
+        <ImageView
+            android:id="@+id/iv_edit_khoantc"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="2dp"
+            android:src="@drawable/ic_edit_36dp" />
+
+        <ImageView
+            android:id="@+id/iv_delete_khoantc"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/iv_edit_khoantc"
+            android:padding="2dp"
+            android:src="@drawable/ic_clear_24dp" />
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/iv_edit_khoantc"
+            android:text="Tên Khoản:"
+            android:textColor="#070707"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvTenKhoanTC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/tv_1"
+            android:text="Line 1"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_1"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/iv_edit_khoantc"
+            android:text="Mã loại:"
+            android:textColor="#070707"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvMaLoai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_1"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_2"
+            android:text="Line 2"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/tv_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_2"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/iv_edit_khoantc"
+            android:text="Ngày:"
+            android:textColor="#070707"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvNgayTC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_2"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_3"
+            android:text="Line 3"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_3"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/iv_edit_khoantc"
+            android:inputType="number"
+            android:text="Số tiền:"
+            android:textColor="#070707"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_3"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tvSoTien"
+            android:text="VNĐ"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvSoTien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_3"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_4"
+            android:text="Line 4"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_4"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/iv_edit_khoantc"
+            android:text="Ghi chú:"
+            android:textColor="#070707"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvGhiChu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_4"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_5"
+            android:text="Line 5"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

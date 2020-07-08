@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9575CD"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Sửa khoản thu"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+    <Spinner
+        android:id="@+id/spLoaiThu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"></Spinner>
+
+    <EditText
+        android:id="@+id/edtTenKhoanThu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_add_circle_black_24dp"
+        android:hint="Sửa tên khoản thu"
+        android:maxLength="15"
+        android:padding="15dp" />
+
+    <TextView
+        android:id="@+id/edtNgayThu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_date_range_black_24dp"
+        android:hint="Chọn ngày thu"
+        android:textSize="20dp"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/edtSoTien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_attach_money_black_24dp"
+        android:hint="Sửa số tiền"
+        android:maxLength="10"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/edtGhiChu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_note_black_24dp"
+        android:hint="Sửa ghi chú"
+        android:padding="15dp" />
+
+</LinearLayout>

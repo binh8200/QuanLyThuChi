@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9575CD"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Thêm loại thu"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edtMaloai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_add_circle_black_24dp"
+        android:hint="Thêm mã loại"
+        android:maxLength="3"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/edtTenloai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_add_circle_black_24dp"
+        android:hint="Thêm tên loại"
+        android:maxLength="17"
+        android:padding="15dp" />
+
+
+</LinearLayout>

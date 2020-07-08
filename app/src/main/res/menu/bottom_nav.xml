@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_khoanthu"
+        android:icon="@drawable/ic_attach_money_white_24dp"
+        android:title="Khoản Thu"/>
+
+    <item
+        android:id="@+id/nav_loaithu"
+        android:icon="@drawable/ic_layers_black_24dp"
+        android:title="Loai thu" />
+
+</menu>
